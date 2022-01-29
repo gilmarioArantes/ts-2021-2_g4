@@ -16,6 +16,7 @@
 <p style="text-align: center;">Aluno 4:201700281:Virgínia de Fernandes Souza</p>
 </b>
 ## Histórico
+
 |Versão|Data|Alteração|Autor|
 |------|----|---------|-----|
 |0.1|29/01/2022|Criação do Documento|gustavo.marques|
@@ -29,7 +30,7 @@ Fazer uma introdução ao processo de teste elaborado pelo grupo. Nesta introdu�
 <!--![Figura 1 - Etapas do Processo de Teste](./images/ptts.png)-->
 <div align="center">
   <img src="./imagens/ptts.png">
-  <figcaption>Figura 1 - Etapas do Processo de Teste</figcaption>
+  <figcaption><br>Figura 1 - Etapas do Processo de Teste</figcaption>
   </div>
 <br>
 
