@@ -112,7 +112,10 @@ Fazer uma introdução ao processo de teste elaborado pelo grupo. Nesta introdu�
 
 # Executar
 <span style="color:blue">Descrever a Executar, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.></span>
+<h3>Execução de teste de software - </h3>
 
+Nesta etapa apresenta-se um modelo abrangente de processo de teste, o qual leva em consideração vários níveis de teste e atividades. É um modelo genérico, uma vez que não está ligado a teste de um tipo de software em particular, nem a um processo específico de desenvolvimento de software. 
+Seguindo o que é geralmente apresentado nessa etapa de teste de software, segue o Modelo V. Esse modelo considera as principais fases do processo de software, associando cada nível de teste de software relacionado. Neste modelo, o ramo esquerdo corresponde à preparação do teste de software, tendo como referencial os estágios do processo de desenvolvimento de software. Enquanto o ramo direito se relaciona à execução e registro do teste, se referenciando nos níveis de teste de software (figura XX).
 ## Atividade 1
 
 ### Responsável
@@ -133,10 +136,7 @@ Fazer uma introdução ao processo de teste elaborado pelo grupo. Nesta introdu�
 
 # Entregar
 <span style="color:blue">Descrever a Entregas, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.></span>
-<h3>Execução de teste de software - </h3>
 
-Nessa etapa apresenta-se um modelo abrangente de processo de teste, o qual leva em consideração vários níveis de teste e atividades. É um modelo genérico, uma vez que não está ligado a teste de um tipo de software em particular, nem a um processo específico de desenvolvimento de software. 
-Seguindo o que é geralmente apresentado nessa etapa de teste de software, segue o Modelo V. Esse modelo considera as principais fases do processo de software, associando cada nível de teste de software relacionado. Neste modelo, o ramo esquerdo corresponde à preparação do teste de software, tendo como referencial os estágios do processo de desenvolvimento de software. Enquanto o ramo direito se relaciona à execução e registro do teste, se referenciando nos níveis de teste de software (figura XX).
 
 
 ## Atividade 1
