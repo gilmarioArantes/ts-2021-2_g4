@@ -159,7 +159,7 @@ Finaliza a fase de Planejar, podendo seguir para a fase de Projetar os Casos de 
   Abaixo temos um diagrama BPM para apresentar visualmente as atividades componentes desta fase do processo de teste.
 
   <div align="center">
-    <img src="./imagens/ProjetarTeste.png">
+    <img src="./imagens/ProjetarTestes.png">
     <figcaption><br>Figura 3 - Fluxo de atividades do Projetar os Casos de Testes</figcaption>
     </div>
   <br>
