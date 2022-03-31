@@ -64,7 +64,9 @@ Fazer uma introdução ao processo de teste elaborado pelo grupo. Nesta introdu�
 ## Atividade 1: Análise de Viabilidade.
   Nessa atividade deve-se analisar a viabilidade de se aplicar os testes no produto de software que está sendo desenvolvido. Identificar possíveis limitações que a equipe pode encontrar durante a execução dos testes e como tratá-las.
 ### Responsável(eis):
- Todos os envolvidos na equipe de desenvolvimento, principalmente a equipe de teste, podem incluir um ou mais stakeholders nesta atividade do processo.
+ * Líder e gerente de teste.
+ * Analista de Teste.
+ * Stakeholders 
 ### Quando:
   Deve ser executada antes da implementação do software, e depois de se ter levantado e aprovado os requisitos do sistema. Pode ser executada em paralelo com o design e arquitetura do software. 
 ### Como:
@@ -84,7 +86,9 @@ Fazer uma introdução ao processo de teste elaborado pelo grupo. Nesta introdu�
   Essa etapa do processo de teste tem o propósito de exercitar eficientemente as condições de uso do software, procurando atingir o máximo de cobertura com o mínimo de casos de teste.
 
 ### Responsável:
-  A equipe de teste, um ou mais stakeholders nesta atividade do processo.
+  * Líder e gerente de teste.
+  * Analista de Teste.
+  * Stakeholders 
 
 ### Quando:
   Após a atividade 1,  Análise de Viabilidade.
@@ -103,7 +107,9 @@ Fazer uma introdução ao processo de teste elaborado pelo grupo. Nesta introdu�
 ## Atividade 3: Definição de Critério Mínimos
 Após ter feito a análise de viabilidade e definido as condições de teste, com base nesses dois itens, está na hora de definir os critérios mínimos de aceitação para cada condição de teste, ou caso de teste. Nessa etapa deve se estipular parâmetros de nível de qualidade esperados em cada caso de teste.
 ### Responsável
-A equipe de teste, pode incluir um ou mais stakeholders nesta atividade do processo.
+  * Líder e gerente de teste.
+  * Analista de Teste.
+  * Stakeholders 
 ### Quando:
   Após a atividade 1, Análise de Viabilidade e a atividade 2,  Condições de Teste.
 
@@ -125,7 +131,9 @@ A equipe de teste, pode incluir um ou mais stakeholders nesta atividade do proce
 ## Atividade 4: Modelagem do Setup
 A atividade de modelagem do setup tem como objetivo definir qual o ambiente que o teste será executado, identificação de requisitos de infraestrutura e a identificação de ferramentas que serão utilizadas no processo de teste.
 ### Responsável
-A equipe de teste, pode incluir um ou mais stakeholders nesta atividade do processo.
+  * Líder e gerente de teste.
+  * Analista de Teste.
+  * Stakeholders 
 ### Quando:
 A atividade 3, Definição de Critério Mínimos.
 ### Como
