@@ -21,6 +21,7 @@
 |------|----|---------|-----|
 |0.1|29/01/2022|Criação do Documento|gustavo.marques|
 |0.2|28/02/2022|Definição do Plano de Teste|fabianogomess|
+|0.3|30/03/2022|Definição da fase Projetar os Casos de Teste|gustavo.marques|
 
 # Introdução
 
@@ -151,25 +152,72 @@ Finaliza a fase de Planejar, podendo seguir para a fase de Projetar os Casos de 
 
 
 # Projetar os Casos de Teste
-<span style="color:blue">Descrever a fase de Projetas os Casos de Teste, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.</span>
+  A fase Projetar os Casos de Teste envolve atividades focadas em projetar e criar os casos de teste que serão utilizados na próxima fase. Para isto é necessário três atividades: especificar os casos de teste, criar os casos de teste e criar um guia de como executar os casos de teste.
+  
+  Ao final desta fase três artefetos deverão ter sidos gerados: Especicação do Projeto de Testes, Especicação dos Casos de Testes, Procedimentos de Testes.
 
-## Atividade 1
+  Abaixo temos um diagrama BPM para apresentar visualmente as atividades componentes desta fase do processo de teste.
 
-### Responsável
+  <div align="center">
+    <img src="./imagens/ProjetarTeste.png">
+    <figcaption><br>Figura 3 - Fluxo de atividades do Projetar os Casos de Testes</figcaption>
+    </div>
+  <br>
 
+## Atividade 1: Refinar as Especificações de Projeto de Testes
+Esta atividade tem como objetivo revisar o documento Especificações de Projeto de Testes feito na fase anterior, refinando-o e completando-o para ser utilizado na próxima atividade.
+### Responsável:
+Analista de testes.
 ### Quando:
-
-### como
-
+Após a finalização da fase de planejamento.
+### Como:
+Primeiramente será feito a refinagem da abordagem de teste de software definida no planejamento. Após refinar o documento, o analista deverá definir qual nível de teste será realizado (Teste de Unidade, Teste de Integração, Teste de Sistema) e com isto espeficar quais serão os casos de uso a serem utilizados para a criação de casos de teste
 ### Prazo:
-
+Em média cinco dias
 ### Entradas:
-
+  * O documento Plano de Teste
+  * O documento Especificações de Projeto de Testes preeliminar
+  * O documento Casos de Uso
 ### Saídas:
-
+O documento "Especificação de Projeto de Testes" completo.
 ### Fluxo:
+A atividade 2, Definir os Casos de Teste.
 
-<span style="color:blue">Identificar e descrever outras atividades componentes desta fase do processo.</span>
+## Atividade 2: Definir os Casos de Teste
+A atividade de definição de casos de teste tem como objetivo criar os casos de teste que serão utilizados na fase Executar.
+### Responsável:
+Analista de testes.
+### Quando:
+Após a atividade 1, Refinar as Especificações de Projeto de Testes.
+### Como:
+O responsável por esta atividade pegará os casos de uso definidos e irá criar um conjunto de dados de entrada e os respectivos resultados esperados da execução para os casos de uso, seguindo os critérios minímos e as especificações definidas. Caberá também ao responsável definir a prioridade de execução de cada caso, baseando-se na prioridade dos casos de uso, e quais casos de teste serão manuais e quais serão automatizados.
+### Prazo:
+Em média dez dias
+### Entradas:
+  * O documento Plano de Teste
+  * O documento Especificações de Projeto de Testes
+  * O documento Casos de Uso
+### Saídas:
+O documento "Especificação dos Casos de Teste" completo.
+### Fluxo:
+A atividade 3, Fazer os Procedimentos de Testes.
+
+## Atividade 3: Fazer os Procedimentos de Testes
+A atividade de fazer os procedimentos de testes tem como objetivo criar os procedimentos de teste.
+### Responsável:
+Analista de testes.
+### Quando:
+Após a atividade 2, Definir os Casos de Teste.
+### Como:
+O analista deverá criar para cada caso (ou um grupo de casos) de teste uma descrição dos passos necessários para executá-lo(s), seja ele manual ou automatizado, ou seja, será criado um manual para o testador seguir de como executar cado caso de teste.
+### Prazo:
+Em média cinco dias
+### Entradas:
+  * O documento Especificação dos Casos de Teste
+### Saídas:
+O documento "Procedimentos de Testes" completo.
+### Fluxo:
+Finaliza a fase de Projetar, podendo seguir para a fase de Executar.
 
 # Executar
 <span style="color:blue">Descrever a Executar, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.></span>
