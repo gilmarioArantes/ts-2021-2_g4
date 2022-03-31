@@ -21,16 +21,12 @@
 |------|----|---------|-----|
 |0.1|29/01/2022|Criação do Documento|gustavo.marques|
 |0.2|28/02/2022|Definição do Plano de Teste|fabianogomess|
-<<<<<<< HEAD
-=======
 |0.3|30/03/2022|Definição da fase Projetar os Casos de Teste|gustavo.marques|
->>>>>>> 1833a1169cb7ff5422f9f4d2f55d175229991893
+|0.4|31/03/2022|Atualização responsáveis, definição da introdução|fabianogomess|
 
 # Introdução
 
-<span style="color:blue">
-Fazer uma introdução ao processo de teste elaborado pelo grupo. Nesta introdução deverá informar se o processo de teste do grupo é para um projeto de desenvolvimento ou para um projeto de manutenção de software
-</span>
+Este Processo de Teste de Software tem como objetivo estruturar as etapas, as atividades, os artefatos, os papéis e as responsabilidades do teste, permitindo organização e controle de todo o ciclo do teste, minimizando os riscos e agregando valor ao software. Este processo segundo seus idealizadores é ideal para um projeto de desenvolvimento, mas pode ser aplicado na manutenção de um produto, este processo foi pensado para acompanhar o software até sua aposentadoria, ou seja, pode ser aplicado futuramente no projeto em alguma atualização ou adição de uma nova funcionalidade.
 
 <!--![Figura 1 - Etapas do Processo de Teste](./images/ptts.png)-->
 <div align="center">
@@ -39,11 +35,27 @@ Fazer uma introdução ao processo de teste elaborado pelo grupo. Nesta introdu�
   </div>
 <br>
 
-<span style="color:blue">Descrever em alto nível as etapas constituintes do processo, conforme Figura 1.</span>
+* **Planejar**
+
+    Nesta etapa procura-se entender, inicialmente as metas e objetivos do projeto e do cliente, os riscos do projet o escopo do trabalho. Os principais objetivos da etapa de planejamento são verificar a missão, definir os objetivos e as atividades de teste a serem realizadas.
+
+* **Projetar**
+
+  Nesta etapa, os casos de teste e scripts são elaborados, analisados e aplicados. Posteriormente, os dados são avaliados e editados novamente.
+
+* **Executar**
+  
+  Nesta etapa, os profissionais de teste vão realizar as devidas validações considerando tudo o que foi apontado nos casos de teste. É necessário documentar os resultados dos testes, registrar os erros, reportar os problemas para a equipe de desenvolvimento e, após correção, refazer todas validações novamente.
+
+* **Entregar**
+
+  Nesta etapa, discute-se os resultados obtidos durante o ciclo de vida de teste, com o propósito de reduzir falhas e custos, além de otimizar os processos e cumprir os objetivos do negócio. É importante que seja elaborado um relatório de qualidade com a cobertura dos testes e os detalhes do projeto.
 
 
 ## Papéis
-<span style="color:blue">Descrever quais os papéis (roles) envolvidos no processo de teste.</span>
+  * Líder e gerente de teste (Essa função orienta o esforço geral de teste. Isso inclui a defesa da qualidade e dos testes, planejamento e gerenciamento de recursos e resolução de problemas que representam um obstáculo para o esforço de teste);
+  * Analista de Teste (É o responsável por identificar e definir os testes exigidos, monitorar o processo de teste em detalhes e os resultados em cada ciclo de teste e avaliar a qualidade geral. Deve garantir a qualidade dos componentes produzidos por meio da verificação de evidência de testes e utilização de técnicas especializadas em testes de programas e sistemas);
+  * Stakeholders (Referente às partes interessadas que devem estar de acordo com as práticas de governança corporativa executadas pela empresa, ou seja o cliente).
 
 ## Ambiente de teste
 <span style="color:blue">Descrever o ambiente de testes, que envolve tanto software, quanto infraestrutura.</span>
@@ -141,7 +153,6 @@ A atividade de modelagem do setup tem como objetivo definir qual o ambiente que 
   * Analista de Teste.
   * Stakeholders 
 
-A atividade 3, Definição de Critério Mínimos.
 ### Como
   Inicialmente deve-se levantar os recursos de infraestrutura e ferramentas já disponíveis, verificar com em relação aos casos de teste, se as ferramentas atendem os casos de teste que vão ser executados. Após o levantamento e avaliação definir quais as ferramentas serão utilizadas, as já disponíveis ou novas. 
   
