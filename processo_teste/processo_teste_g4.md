@@ -4,6 +4,7 @@
 </div>
 
 # <p style="text-align: center;">Processo de Teste de Software</p>
+
 <b>
 <p style="text-align: center;">Universidade Federal de Goiás</p>
 <p style="text-align: center;">Instituto de Informática</p>
@@ -36,81 +37,92 @@ Fazer uma introdução ao processo de teste elaborado pelo grupo. Nesta introdu�
 
 <span style="color:blue">Descrever em alto nível as etapas constituintes do processo, conforme Figura 1.</span>
 
-
 ## Papéis
+
 <span style="color:blue">Descrever quais os papéis (roles) envolvidos no processo de teste.</span>
 
 ## Ambiente de teste
+
 <span style="color:blue">Descrever o ambiente de testes, que envolve tanto software, quanto infraestrutura.</span>
 
 # Planejar
+
 <span style="color:blue">Descrever a fase de planejamento, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.</span>
 
 ## Atividade 1 (definir)
+
 <span style="color:blue">Descrever a atividade 1</span>
 
 ### Responsável(eis)
+
  <span style="color:blue">quais são os papéis envolvidos nesta atividade?</span>
 
 ### Quando
+
 <span style="color:blue">quando a atividade deve ser executada?</span>
 
 ### Como
+
 <span style="color:blue">como é a execução da atividade?</span>
 
-
 ### Prazo
+
 <span style="color:blue">qual o prazo para execução?</span>
 
 ### Entradas
+
 <span style="color:blue">quais são as entradas que subsidiam a execução?</span>
 
 ### Saídas
+
 <span style="color:blue">quais são as saídas geradas pela execução?</span>
 
-### Fluxo:
+### Fluxo
+
 <span style="color:blue">qual a próxima atividade a ser executada na sequencia?</span>
 
 ## Atividade 2
 
 ### Responsável
 
-### Quando:
+### Quando
 
 ### como
 
-### Prazo:
+### Prazo
 
-### Entradas:
+### Entradas
 
-### Saídas:
+### Saídas
 
-### Fluxo:
+### Fluxo
 
 <span style="color:blue">Identificar e descrever outras atividades componentes desta fase do processo.</span>
 
 # Projetar os Casos de Teste
+
 <span style="color:blue">Descrever a fase de Projetas os Casos de Teste, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.</span>
 
 ## Atividade 1
 
 ### Responsável
 
-### Quando:
+### Quando
 
 ### como
 
-### Prazo:
+### Prazo
 
-### Entradas:
+### Entradas
 
-### Saídas:
+### Saídas
 
-### Fluxo:
+### Fluxo
 
 <span style="color:blue">Identificar e descrever outras atividades componentes desta fase do processo.</span>
 
 # Executar
+
 <div align="justify"><h3>Execução de teste de software - </h3>
 
 <p>Nesta etapa apresenta-se um modelo abrangente de processo de teste, o qual leva em consideração vários níveis de teste e atividades. É um modelo genérico, uma vez que não está ligado a teste de um tipo de software em particular, nem a um processo específico de desenvolvimento de software.
@@ -119,7 +131,6 @@ Seguindo o que é geralmente apresentado nessa etapa de teste de software, segue
   <img src="imagens/modelo_v1.png" alt="modelov">
   <figcaption></figcaption>
 </figure>
-
 
 <p>
 Nas etapas iniciais do processo de software é feita a preparação do teste que engloba o planejamento e o projeto de teste.
@@ -166,14 +177,13 @@ através de ciclos de detecção de falhas e de alterações para corrigi-las.
 </p></li>
 <li><p>Técnica Funcional- técnica na qual os seguintes critérios para a geração dos casos de teste podem ser adotados: Particionamento de Equivalência, Análise de Valores Limites, Teste Baseado em Casos de Uso, Grafo de Causas e Efeito, Teste Baseado em Tabelas de Decisão, Teste Baseado em Máquinas de Estados. </p></li>
 </ul>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<p>Os testes de funcionalidade, desempenho, confiabilidade, usabilidade, e outros, podem  ser utilizados a depender das características da unidade que está sendo testada e também dos objetivos do teste.  </p>
+<p>
+</p>
+<p>O teste de aceitação inicia-se depois da conclusão do teste de sistema. O teste de aceitação se processa através de detecção de problemas e de alterações. Para esse teste, todas as técnicas de todos os tipos de teste sao aplicados no teste de sistema. Embora um processo de teste não precise necessariamente incluir todos os níveis de teste.
+
+</p>
+
 <figure>
   <img src="imagens/fig-exec2.png" alt="bpmn">
   <figcaption></figcaption>
@@ -181,50 +191,48 @@ através de ciclos de detecção de falhas e de alterações para corrigi-las.
 
 </div>
 
-
 <span style="color:blue">Descrever a Executar, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.></span>
-
 
 ## Atividade 1
 
 ### Responsável
 
-### Quando:
+### Quando
 
 ### como
 
-### Prazo:
+### Prazo
 
-### Entradas:
+### Entradas
 
-### Saídas:
+### Saídas
 
-### Fluxo:
+### Fluxo
 
 <span style="color:blue">Identificar e descrever outras atividades componentes desta fase do processo.</span>
 
 # Entregar
+
 <span style="color:blue">Descrever a Entregas, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.></span>
-
-
 
 ## Atividade 1
 
 ### Responsável
 
-### Quando:
+### Quando
 
 ### como
 
-### Prazo:
+### Prazo
 
-### Entradas:
+### Entradas
 
-### Saídas:
+### Saídas
 
-### Fluxo:
+### Fluxo
 
 <span style="color:blue">Identificar e descrever outras atividades componentes desta fase do processo.</span>
 
 # Considerações Finais
+
 <span style="color:blue">Descrever as considerações finais a respeito deste processo de teste de software.</span>
