@@ -235,4 +235,12 @@ através de ciclos de detecção de falhas e de alterações para corrigi-las.
 
 # Considerações Finais
 
+<p>De acordo com o observado por este trabalho, o processo de software deve ser tratado como mais um processo de software e portanto integrado ao desenvolvimento de software e tambem deve iniciar concomitantemente ao projeto de favorecendo a retroalimentação entre os processos. Todo o processo de teste tem que estar muito bem definido e caracterizado para que o desenvolvimento do software tenha um bom progresso e uma qualidade final assegurada.</p>
+<p>As ferramentas de gerenciamento de casos de teste e de controle de "bugs" são atuantes na melhoria do processo de teste de software, contribuindo grandemente para a documentação e gerência do processo de teste.</p>
+<p>A documentação do processo, somado às ferramentas contribuem de forma muito significativa na entrega de um produto final de qualidade e que atenda às espectativas do cliente.</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
 <span style="color:blue">Descrever as considerações finais a respeito deste processo de teste de software.</span>
