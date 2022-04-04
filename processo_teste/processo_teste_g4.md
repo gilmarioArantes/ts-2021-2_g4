@@ -37,7 +37,7 @@ Este Processo de Teste de Software tem como objetivo estruturar as etapas, as at
 
 * **Planejar**
 
-    Nesta etapa procura-se entender, inicialmente as metas e objetivos do projeto e do cliente, os riscos do projet o escopo do trabalho. Os principais objetivos da etapa de planejamento são verificar a missão, definir os objetivos e as atividades de teste a serem realizadas.
+    Nesta etapa procura-se entender, inicialmente as metas e objetivos do projeto e do cliente, os riscos do projeto escopo do trabalho. Os principais objetivos da etapa de planejamento são verificar a missão, definir os objetivos e as atividades de teste a serem realizadas.
 
 * **Projetar**
 
@@ -264,26 +264,75 @@ Finaliza a fase de Projetar, podendo seguir para a fase de Executar.
 
 <span style="color:blue">Identificar e descrever outras atividades componentes desta fase do processo.</span>
 
+
 # Entregar
-<span style="color:blue">Descrever a Entregas, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.></span>
+A etapa de Entregar do teste, é onde coletamos todos os dados de todas as outras etapas para consolidar a experiência final obtida, a documentação gerada pelo processo de teste como planos de teste, condições de teste, casos de teste, base de teste utilizada, etc., fatos e números consolidados.
 
-## Atividade 1
+Nesta etapa ainda checamos se todos os entregáveis planejados foram realmente entregues, fechamos relatórios e incidentes, documentamos o aceite do sistema, finalizamos e arquivamos o testware, ambientes de teste, infraestrutura de teste para reuso, analisamos as lições aprendidas para determinar as mudanças para futuros projetos, e melhoramos a maturidade dos testes com as informações obtidas.
 
+ <div align="center">
+    <img src="./imagens/entregarFluxo.png">
+    <figcaption><br>Figura 6 - Fluxo de atividades do Entregar</figcaption>
+    </div>
+  <br>
+
+## Atividade 1: Coletar e organizar informações das outras etapas
+Esta atividade irá focar em reunir e organizar os artefatos que foram produzidos durante todo o processo de teste. É preciso organizar os artefatos em artefatos do processo e artefatos da execução dos casos de teste, este primeiro relacionado ao processo, documentos que dizem respeito como o processo deve ser executado, já o segundo, artefatos de execução dos casos de teste, são os casos de teste, suas descrições e metas e os resultados obtidos após a fase de execução.
 ### Responsável
-
+  * Analista de Testes
 ### Quando:
+Após o encerramento da fase de Executar os Testes.
 
-### como
+### Como:
+Reunir todas as informações desde a definição do processo de testes e os dados de execução dos testes, separar um arquivo com os dados do processo e outro com os dados obtidos a partir da execução dos testes. 
 
 ### Prazo:
+Em média cinco dias.
 
 ### Entradas:
+  * Plano de Testes
+  * Relatório de incidentes de teste 
+  * Diário de Testes.
+### Saídas:
+Relação de documentos preparatórios para a construção do Relatório sumário dos testes.
+### Fluxo:
+Atividade 2: Avaliar os resultados da execução do teste.
+Esta atividade tem como objetivo validar os resultados dos casos de teste do ponto de vista da qualidade de software, visando averiguar se os resultados obtidos são satisfatórios aos níveis de qualidade estabelecidos no início do processo. 
+## Atividade 2: Avaliar os resultados da execução do teste.
+
+### Responsável
+  * Analista de Testes
+### Quando:
+Após a Atividade 1: Coletar e organizar informações das outras etapas
+### Como:
+Avaliar os dados de execução do teste e verificar se atende as métricas estabelecidas no começo do processo no Plano de Teste. Verificar se todos os pontos críticos do sistema foram cobertos pelo teste e se os resultados atendem as expectativas definidas inicialmente.
+### Prazo:
+Em média dez dias.
+### Entradas:
+  * Relação de documentos obtidos na Atividade 1: Coletar e organizar informações das outras etapas.
 
 ### Saídas:
-
+Relatório sumário dos testes.
 ### Fluxo:
-
-<span style="color:blue">Identificar e descrever outras atividades componentes desta fase do processo.</span>
-
+Se os resultados obtidos no teste são satisfatórios e atendem às expectativas definidas no início do processo de software, a próxima etapa é a Atividade 3: Avaliar o processo de teste. 
+Caso não atenda as expectativas deve voltar a etapa 1: Planejamento e rever o plano de testes, executar um novo processo de teste a fim de atender ao nível de qualidade esperado do projeto.
+## Atividade 3:  Avaliar o processo de teste
+Atividade onde se vai avaliar todo o processo de teste que foi executado pela equipe de  teste.
+### Responsável
+  * Líder e gerente de teste.
+  * Analista de Teste.
+### Quando:
+Após a conclusão da Atividade 2: Avaliar os resultados da execução do teste.
+### Como:
+Avaliar o processo de teste, pontos positivos e negativos, pontos que funcionaram e não funcionaram durante a execução do processo, relatar todas as informações e considerá-las na próxima vez que o processo de teste for ser executado pela equipe. Na avaliação pode se selecionar casos de teste considerados padrão e serem catalogados para serem usados em outro projeto, já que estão todos bem definidos podem ser reutilizados com tranquilidade em projetos futuros. 
+### Prazo:
+Em média dez dias.
+### Entradas:
+  * Todos os artefatos produzidos durante o processo.
+### Saídas:
+  * Relatório do processo de teste.
+  * Catálogo de casos de teste.
+### Fluxo:
+Fim do processo.
 # Considerações Finais
 <span style="color:blue">Descrever as considerações finais a respeito deste processo de teste de software.</span>
