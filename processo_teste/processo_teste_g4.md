@@ -59,8 +59,11 @@ Este Processo de Teste de Software tem como objetivo estruturar as etapas, as at
 * Stakeholders (Referente às partes interessadas que devem estar de acordo com as práticas de governança corporativa executadas pela empresa, ou seja o cliente).
 
 ## Ambiente de teste
-
-<span style="color:blue">Descrever o ambiente de testes, que envolve tanto software, quanto infraestrutura.</span>
+Definição do ambiente de teste:
+* Este plano tem como objetivo atender projetos de desenvolvimento em MVC na linguagem JAVA. 
+* O equipamento deve ter configurações minimas de 8gb de ram, um processador i5 ou similar, um ssd de 256GB e acesso a internet liberado.
+* A IDE utilizada será o Eclipse. Será utilizada JUnit, para produzir e rodar os testes.
+* A equipe de teste precisa de um espaço para reuniões e um ambiente com as máquinas para que a equipe possa trabalhar no processo.
 
 # Planejar
 
@@ -342,8 +345,6 @@ Finaliza a fase de Projetar, podendo seguir para a fase de Executar.
 
 ## Atividade 1 - Executar Testes
 
-<span style="color:blue">Descrever a Executar, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.></span>
-<div align="justify"><h3>Execução de teste de software - </h3>
 
 <p>Nesta etapa apresenta-se um modelo abrangente de processo de teste, o qual leva em consideração vários níveis de teste e atividades. É um modelo genérico, uma vez que não está ligado a teste de um tipo de software em particular, nem a um processo específico de desenvolvimento de software.
 Seguindo o que é geralmente apresentado nessa etapa de teste de software, segue o Modelo V. Esse modelo considera as principais fases do processo de software, associando cada nível de teste de software relacionado. Neste modelo, o ramo esquerdo corresponde à preparação do teste de software, tendo como referencial os estágios do processo de desenvolvimento de software. Enquanto o ramo direito se relaciona à execução e registro do teste, se referenciando nos níveis de teste de software (figura XX).</p>
@@ -458,12 +459,9 @@ Finalizada a fase Executar, segue-se para a fase Entregar.
 
 
 # Entregar
-<<<<<<< HEAD
-A etapa de Entregar do teste, é onde coletamos todos os dados de todas as outras etapas para consolidar a experiência final obtida, a documentação gerada pelo processo de teste como planos de teste, condições de teste, casos de teste, base de teste utilizada, etc., fatos e números consolidados.
-=======
 
-<span style="color:blue">Descrever a Entregas, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.></span>
->>>>>>> 01a073ae9b1ec6ec2a2177e4845c2a6b89957c53
+A etapa de Entregar do teste, é onde coletamos todos os dados de todas as outras etapas para consolidar a experiência final obtida, a documentação gerada pelo processo de teste como planos de teste, condições de teste, casos de teste, base de teste utilizada, etc., fatos e números consolidados.
+
 
 Nesta etapa ainda checamos se todos os entregáveis planejados foram realmente entregues, fechamos relatórios e incidentes, documentamos o aceite do sistema, finalizamos e arquivamos o testware, ambientes de teste, infraestrutura de teste para reuso, analisamos as lições aprendidas para determinar as mudanças para futuros projetos, e melhoramos a maturidade dos testes com as informações obtidas.
 
@@ -473,24 +471,17 @@ Nesta etapa ainda checamos se todos os entregáveis planejados foram realmente e
     </div>
   <br>
 
-<<<<<<< HEAD
+
 ## Atividade 1: Coletar e organizar informações das outras etapas
 Esta atividade irá focar em reunir e organizar os artefatos que foram produzidos durante todo o processo de teste. É preciso organizar os artefatos em artefatos do processo e artefatos da execução dos casos de teste, este primeiro relacionado ao processo, documentos que dizem respeito como o processo deve ser executado, já o segundo, artefatos de execução dos casos de teste, são os casos de teste, suas descrições e metas e os resultados obtidos após a fase de execução.
 ### Responsável
   * Analista de Testes
 ### Quando:
 Após o encerramento da fase de Executar os Testes.
-=======
-### Quando
->>>>>>> 01a073ae9b1ec6ec2a2177e4845c2a6b89957c53
-
 ### Como:
 Reunir todas as informações desde a definição do processo de testes e os dados de execução dos testes, separar um arquivo com os dados do processo e outro com os dados obtidos a partir da execução dos testes. 
-
-<<<<<<< HEAD
 ### Prazo:
 Em média cinco dias.
-
 ### Entradas:
   * Plano de Testes
   * Relatório de incidentes de teste 
@@ -501,16 +492,7 @@ Relação de documentos preparatórios para a construção do Relatório sumári
 Atividade 2: Avaliar os resultados da execução do teste.
 Esta atividade tem como objetivo validar os resultados dos casos de teste do ponto de vista da qualidade de software, visando averiguar se os resultados obtidos são satisfatórios aos níveis de qualidade estabelecidos no início do processo. 
 ## Atividade 2: Avaliar os resultados da execução do teste.
-=======
-### Prazo
-
-### Entradas
-
-### Saídas
-
-### Fluxo
->>>>>>> 01a073ae9b1ec6ec2a2177e4845c2a6b89957c53
-
+Esta atividade tem como objetivo validar os resultados dos casos de teste do ponto de vista da qualidade de software, visando averiguar se os resultados obtidos são satisfatórios aos níveis de qualidade estabelecidos no início do processo. 
 ### Responsável
   * Analista de Testes
 ### Quando:
@@ -555,4 +537,3 @@ Fim do processo.
 <p></p>
 <p></p>
 
-<span style="color:blue">Descrever as considerações finais a respeito deste processo de teste de software.</span>
