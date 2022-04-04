@@ -123,6 +123,9 @@ Fazer uma introdução ao processo de teste elaborado pelo grupo. Nesta introdu�
 
 # Executar
 
+## Atividade 1 - Executar Testes
+
+<span style="color:blue">Descrever a Executar, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.></span>
 <div align="justify"><h3>Execução de teste de software - </h3>
 
 <p>Nesta etapa apresenta-se um modelo abrangente de processo de teste, o qual leva em consideração vários níveis de teste e atividades. É um modelo genérico, uma vez que não está ligado a teste de um tipo de software em particular, nem a um processo específico de desenvolvimento de software.
@@ -191,23 +194,46 @@ através de ciclos de detecção de falhas e de alterações para corrigi-las.
 
 </div>
 
-<span style="color:blue">Descrever a Executar, junto com suas respectivas tarefas e papéis responsáveis. Criar um diagrama bpm para apresentar visualmente as atividades componentes desta fase.></span>
-
-## Atividade 1
-
 ### Responsável
 
+Analistas de teste
+
 ### Quando
+
+A atividade executar ocorre após a determinação do procedimento de teste.
 
 ### como
 
 ### Prazo
 
+Vai depender da complexidade do sistema, mas em média 10 dias.
+
 ### Entradas
+
+<ul>
+<li>
+<p>Plano de Teste</p>
+</li>
+<li>
+<p>Itens de Teste</p>
+</li>
+</ul>
 
 ### Saídas
 
+ Os artefatos de saída são:
+ <ul>
+ <li>
+ <p>Relatório de Incidente de Teste</p>
+ </li>
+ <li>
+ <p>Relatório Resumo de Teste</p>
+ </li>
+ </ul>
+
 ### Fluxo
+
+Finalizada a fase Executar, segue-se para a fase Entregar.
 
 <span style="color:blue">Identificar e descrever outras atividades componentes desta fase do processo.</span>
 
