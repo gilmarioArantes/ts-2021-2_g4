@@ -201,6 +201,10 @@ A atividade de modelagem do setup tem como objetivo definir qual o ambiente que 
 * Analista de Teste.
 * Stakeholders
 
+### Quando:
+
+  A atividade 3, Definição de Critério Mínimos.
+
 ### Como
 
   Inicialmente deve-se levantar os recursos de infraestrutura e ferramentas já disponíveis, verificar com em relação aos casos de teste, se as ferramentas atendem os casos de teste que vão ser executados. Após o levantamento e avaliação definir quais as ferramentas serão utilizadas, as já disponíveis ou novas.
