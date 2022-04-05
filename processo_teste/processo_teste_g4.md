@@ -222,7 +222,7 @@ A atividade de modelagem do setup tem como objetivo definir qual o ambiente que 
 
   O tópico “ Modelagem do Setup”, no documento Plano de Teste, completo, com o ambiente e ferramentas, que serão utilizadas no processo de teste, definidas e justificadas.
 
-  Com esse tópico finalizado, finaliza-se também o documento de Palno de Teste.
+  Com esse tópico finalizado, finaliza-se também o documento de Plano de Teste.
 
 ### Fluxo
 
