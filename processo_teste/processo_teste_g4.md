@@ -24,7 +24,8 @@
 |0.2|28/02/2022|Definição do Plano de Teste|fabianogomess|
 |0.3|30/03/2022|Definição da fase Projetar os Casos de Teste|gustavo.marques|
 |0.4|31/03/2022|Atualização responsáveis, definição da introdução|fabianogomess|
-|0.5|04/04/2022|Atualizações finais|fabianogomess|
+|0.5|04/03/2022|Definição da fase Executar|virgínia|
+|1.0|04/04/2022|Atualizações finais|fabianogomess|
 
 # Introdução
 
